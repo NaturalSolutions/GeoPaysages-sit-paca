@@ -1,0 +1,47 @@
+:root {
+  /*
+  Consider -light as -hover
+  TODO rename it ?
+  */
+  --color-primary: #00795a;
+  --color-primary-light: #405f58;
+  --color-secondary: #e91e63;
+  --color-secondary-light: #be134d;
+
+  --color-discover: rgba(153, 214, 234, 0.5);
+
+  --color-sites-filter-txt-hover: #fff;
+  --color-sites-filter-bg-hover: var(--color-primary-light);
+  --color-sites-filter-txt-active: #fff;
+  --color-sites-filter-bg-active: var(--color-primary);
+
+  --page-container-min-height: calc(100vh - 415px);
+}
+
+.page-gallery .picture:hover img {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+}
+
+.page-gallery .picture .discover {
+  font-style: normal;
+  height: 100%;
+}
+
+.page-gallery .picture .discover a {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.page-gallery .picture .discover .observatory-label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-gallery .picture .discover .ref {
+  display: none;
+}
