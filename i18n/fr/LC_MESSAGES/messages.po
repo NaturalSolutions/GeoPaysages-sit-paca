@@ -20,23 +20,23 @@ msgstr ""
 
 #: utils.py:199
 msgid "sites.filter.themes"
-msgstr "Filtrer par thèmes"
+msgstr "Thèmes"
 
 #: utils.py:203
 msgid "sites.filter.subthemes"
-msgstr "Filtrer par sous-thème(s)"
+msgstr "Sous-thème(s)"
 
 #: utils.py:207
 msgid "sites.filter.township"
-msgstr "Filtrer par commune(s)"
+msgstr "Commune(s)"
 
 #: utils.py:211
 msgid "sites.filter.years"
-msgstr "Filtrer par année(s)"
+msgstr "Année(s)"
 
 #: utils.py:327
 msgid "sites.filter.obervatories"
-msgstr "Filtrer par observatoire(s)"
+msgstr "Observatoire(s)"
 
 #: tpl/comparator-v1.jinja:8
 msgid "obs_point.buttons.download"
