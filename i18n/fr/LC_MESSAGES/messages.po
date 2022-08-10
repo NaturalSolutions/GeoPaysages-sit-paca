@@ -105,11 +105,11 @@ msgstr "Filtre(s) : %(nb)s résultat(s)"
 
 #: tpl/home.jinja:3
 msgid "home.meta_title"
-msgstr "Observatoire photographique des paysages de Vanoise"
+msgstr "Observatoires Photographiques des Paysages des Parcs naturels régionaux de Provence-Alpes-Côte-d'Azur"
 
 #: tpl/home.jinja:16
 msgid "home.title"
-msgstr "L'Observatoire photographique des paysages de Vanoise"
+msgstr "Observatoires Photographiques des Paysages des Parcs naturels régionaux de Provence-Alpes-Côte-d'Azur"
 
 #: tpl/home.jinja:19
 msgid "home.title_mobile"
