@@ -231,8 +231,8 @@ msgstr "Galerie photo"
 #~ msgid "map.title"
 #~ msgstr "Carte interactive"
 
-#~ msgid "map.filters.title"
-#~ msgstr "Filtrer par"
+msgid "map.filters.title"
+msgstr "Filtrer par"
 
 #~ msgid "map.filters.nb_result"
 #~ msgstr "filtres : %(nb)s résultat(s)"
