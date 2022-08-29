@@ -18,3 +18,7 @@
 
   --page-container-min-height: calc(100vh - 415px);
 }
+
+.custom-footer {
+  border-top: 1px solid #ccc;
+}
