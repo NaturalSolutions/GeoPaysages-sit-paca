@@ -22,3 +22,11 @@
 .custom-footer {
   border-top: 1px solid #ccc;
 }
+
+.page-sites .custom-footer {
+  display: none;
+}
+
+.page-gallery .custom-footer {
+  display: none;
+}
