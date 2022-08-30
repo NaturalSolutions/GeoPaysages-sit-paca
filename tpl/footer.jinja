@@ -2,7 +2,7 @@
 <footer class="p-4 mt-4 custom-footer">
     <div class="d-flex justify-content-center">
     {% for observatory in data.observatories %}
-        <img src="{{getThumborUrl('x100/'+observatory.logo)}}" alt="{{observatory.title}}" class="observatory-logo"/>    
+        <img src="{{getThumborUrl('x100', observatory.logo)}}" alt="{{observatory.title}}" class="observatory-logo"/>    
     {% endfor %}
     </div>
 </footer>
