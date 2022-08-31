@@ -1,2 +1,6 @@
+custom/images/logo_txt_blanc.png
+custom/images/logo_txt_color.png
+custom/images/favicon.ico
+
 upload/*
 !upload/.gitkeep
