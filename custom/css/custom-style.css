@@ -30,3 +30,7 @@
 .page-gallery .custom-footer {
   display: none;
 }
+
+.page-home .custom-footer {
+  margin-top: 0 !important;
+}
