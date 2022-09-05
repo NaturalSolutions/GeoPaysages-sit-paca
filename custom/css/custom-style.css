@@ -3,7 +3,7 @@
   Consider -light as -hover
   TODO rename it ?
   */
-  --color-primary: #00795a;
+  --color-primary: #4A756C;
   --color-primary-50: #00795a88;
   --color-primary-light: #405f58;
   --color-secondary: #e91e63;
@@ -29,4 +29,8 @@
 
 .page-gallery .custom-footer {
   display: none;
+}
+
+.page-home .custom-footer {
+  margin-top: 0 !important;
 }
