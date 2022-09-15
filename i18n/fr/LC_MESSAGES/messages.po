@@ -134,7 +134,7 @@ msgstr "Lire moins"
 
 #: tpl/site.jinja:99
 msgid "obs_point.testimonials"
-msgstr "Témoignages"
+msgstr "En savoir plus"
 
 #: tpl/sites.jinja:4
 msgid "sites.meta_title"
