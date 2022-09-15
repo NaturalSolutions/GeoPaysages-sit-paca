@@ -1,11 +1,13 @@
 {% set data = getFooterData() %}
 <footer class="px-4 pt-4 pb-1 mt-4 bg-white custom-footer">
-    <div class="d-flex justify-content-center">
-    {% for observatory in data.observatories %}
-        <img src="{{getThumborUrl('x100', observatory.logo)}}" alt="{{observatory.title}}" class="observatory-logo"/>    
-    {% endfor %}
+    <div class="d-flex justify-content-center align-items-start">
+        <img src="{{ url_for('static', filename='custom/images/logo_pref_paca.png') }}" style="height:100px;" />
+        <img src="{{ url_for('static', filename='custom/images/logo_paca.jpg') }}" class="ml-3" style="height:80px;" />
+        {% for observatory in data.observatories %}
+            <img src="{{getThumborUrl('80x', observatory.logo)}}" class="ml-3" style="width:64px;" alt="{{observatory.title}}" />    
+        {% endfor %}
     </div>
-    <div class="mt-4 d-flex">
+    <div class="mt-4 text-center">
         {% include 'components/legal-footer.jinja' %}
     </div>
 </footer>
