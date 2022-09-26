@@ -17,6 +17,7 @@
   --color-sites-filter-bg-active: var(--color-primary);
 
   --page-container-min-height: calc(100vh - 415px);
+  --header-h: 80px;
 }
 
 .custom-footer {
