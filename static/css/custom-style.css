@@ -16,12 +16,16 @@
   --color-sites-filter-txt-active: #fff;
   --color-sites-filter-bg-active: var(--color-primary);
 
-  --page-container-min-height: calc(100vh - 415px);
   --header-h: 80px;
+  --page-container-min-height: calc(100vh - var(--header-h) - 177px);
 }
 
 .custom-footer {
   border-top: 1px solid #ccc;
+}
+
+.page-home .page-content {
+  padding-bottom: 0 !important;
 }
 
 .page-sites .custom-footer {

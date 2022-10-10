@@ -2,17 +2,11 @@
 {% set active_page = 'about' %}
 
 {% block title %}À PROPOS{% endblock %}
-
 {% block bodyClassNames %}page-about{% endblock %}
 
-{% block header_title %}
-    <h1>
-        À PROPOS
-    </h1>
-{% endblock %}
-
 {% block content %}
-    <div class="container">
+  <div class="container py-4 page-container-min-height">
+    <h1 class="page-title text-center">À PROPOS</h1>
 
     <h4>Observatoire Photographique ...</h4>
 
@@ -25,7 +19,5 @@
     <p>Les choix des points de vue sont issus de discussions entre des acteurs locaux sur proposition d’un regard sensible et artistique ...</p>
 
     <p>Certes chacun des points de vue montre, de manière parfois brutale, les transformations d’un lieu mais, plus que le cas particulier, ce qui est intéressant, c’est de comprendre les raisons de ces transformations et ce qu’elles nous enseignent, d’une manière générale ....</p>
-
-
-    </div>
+  </div>
 {% endblock %}
