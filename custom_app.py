@@ -1,4 +1,9 @@
+from flask import render_template, Blueprint
 import models
+import utils
+
+custom = Blueprint('custom', __name__)
+
 observatory_schema_lite = models.ObservatorySchemaLite(many=True)
 
 def getFooterData():
@@ -11,3 +16,7 @@ def custom_inject_to_tpl():
     return dict(
         getFooterData= getFooterData
     )
+
+@custom.route('/about')
+def about():
+    return render_template(utils.getCustomTpl('about'))
