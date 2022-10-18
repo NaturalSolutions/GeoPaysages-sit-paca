@@ -3,9 +3,16 @@
     <div class="d-flex justify-content-center align-items-start">
         <img src="{{ url_for('static', filename='custom/images/logo_pref_paca.png') }}" style="height:100px;" />
         <img src="{{ url_for('static', filename='custom/images/logo_paca.jpg') }}" class="ml-3" style="height:80px;" />
-        {% for observatory in data.observatories %}
-            <img src="{{getThumborUrl('80x', observatory.logo)}}" class="ml-3" style="width:64px;" alt="{{observatory.title}}" />    
-        {% endfor %}
+        
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-1.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-2.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-3.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-4.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-5.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-6.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-7.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-8.png') }}" class="ml-3" style="width:64px;" />
+        <img src="{{ url_for('static', filename='custom/images/footer-obs-logo-9.png') }}" class="ml-3" style="width:64px;" />
     </div>
     <div class="mt-4 text-center">
         {% include 'components/legal-footer.jinja' %}
